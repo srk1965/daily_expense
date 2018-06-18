@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Daily Expense</title>
+    <link rel="shortcut icon" href="/static/images/delogo.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+      .footer {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: grey;
+         color: white;
+         text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Daily Expense</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/get_add_expense">Add Expense</a></li>
+          <li><a href="/get_expense_data">Show Expense</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/get_login"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+     <div class="container" align="center">
+         <h2 class="text-success">Successfull Updated Your Expense....</h2>
+         <p class="text-success">Now you can check your daily expense data by Show Expense...</p>
+     </div>
+     <div class="footer">
+        <p>© 2018 Copyright By --Daily Expense System--</p>
+     </div>
+  </body>
+</html>
